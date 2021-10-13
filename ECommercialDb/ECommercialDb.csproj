@@ -56,6 +56,7 @@
     <Compile Include="Models\Entities\Abstract\BaseEntity.cs" />
     <Compile Include="Models\Entities\Concrete\Category.cs" />
     <Compile Include="Models\Entities\Concrete\Customer.cs" />
+    <Compile Include="Models\Entities\Concrete\Employee.cs" />
     <Compile Include="Models\Entities\Concrete\Order.cs" />
     <Compile Include="Models\Entities\Concrete\OrderDetail.cs" />
     <Compile Include="Models\Entities\Concrete\Product.cs" />

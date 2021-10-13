@@ -8,6 +8,10 @@ namespace ECommercialDb.Models.Entities.Concrete
 {
     public class Supplier : BaseEntity 
     {
+        public string CompanyName { get; set; }
+        public string ContactName { get; set; }
+        public int Phone { get; set; }
+
         public virtual List<Product> Products { get; set; }
 
     }
