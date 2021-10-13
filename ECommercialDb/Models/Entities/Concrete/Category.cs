@@ -9,5 +9,6 @@ namespace ECommercialDb.Models.Entities.Concrete
 {
     public class Category:BaseEntity
     {
+        public virtual List<Product> Products  { get; set; }
     }
 }
