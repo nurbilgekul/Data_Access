@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Infrastructer\Context\ApplicationDbContext.cs" />
+    <Compile Include="Infrastructure\Context\ApplicationDbContext.cs" />
     <Compile Include="Models\Entities\Abstract\BaseEntity.cs" />
     <Compile Include="Models\Entities\Concrete\Category.cs" />
     <Compile Include="Models\Entities\Concrete\Customer.cs" />
